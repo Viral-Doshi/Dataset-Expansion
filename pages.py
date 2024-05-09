@@ -171,7 +171,7 @@ def get_dataset_recommendations(file_name, column_names):
         # Call Anthropics API
         client = anthropic.Anthropic(
         # defaults to os.environ.get("ANTHROPIC_API_KEY")
-        api_key="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",
+        api_key="",
         )
         message = client.messages.create(
             model="claude-3-opus-20240229",
